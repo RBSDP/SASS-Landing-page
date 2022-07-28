@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Oswald&display=swap');
+
+
+*{
+    font-family: Montserrat;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7130CC;
+    
+}
+.logo-nav{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.list-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-right: -40%;
+
+    
+
+}
+
+.list-item{
+    margin-left: 20px;
+    color: white;
+}
+.main{
+    color: #12B0E8;
+}
+.button-nav > button{
+    background-color: #12B0E8;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+   
+}
+
+.image-1{
+    width: 600px;
+}
+.image-2{
+    width: 600px;
+}
+
+.section-1{
+    background-color: #7130CC;
+}
+.section-1-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+.section-1-left-content h3 {
+    font-size: 50px;
+    margin-bottom: 4%;
+}
+
+
+/* section-2 */
+.section-2-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.section-2-right-content{
+    color: black;
+}
+ul{
+    margin-left: 10%;
+}
+.section-2-right-card-1 > p{
+    font-size: 10px;
+}
+.section-2-right-card-2 > p{
+    font-size: 10px;
+}
+.section-2-right-card-3 > p{
+    font-size: 10px;
+}
+.section-2-right-card-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-2-right-card-2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-2-right-card-3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-2-right-content{
+    margin-left: -25%;
+}
+.section-2-left-content{
+    margin-left:-10% ;
+}
+/* section-3 */
+.section-3{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* section-4 */
+
+.section-4{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.image1-sec-4 ,.image2-sec-4,.image3-sec-4,.image4-sec-4{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-left: 22px;
+    margin-top: 25px;
+}
+.section-4-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.section-4-card-1-image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: #FAEAEB;
+    margin: auto;
+    
+    
+
+}
+
+.section-4-card-2-image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: #FBF0EE;
+    margin: auto;
+}
+
+.section-4-card-3-image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: #E9F4F6;
+    margin: auto;
+}
+.section-4-card-4-image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: #F2E7F5;
+    margin: auto;
+    
+}
+
+
+.section-4-card-1-content,.section-4-card-2-content,.section-4-card-3-content,.section-4-card-4-content{
+    text-align: center;
+    /* padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 4%;
+    margin-right:4% ; */
+
+}
+
+.section-4-card-1-content > p ,.section-4-card-2-content > p,.section-4-card-3-content > p,.section-4-card-4-content >p{
+
+    font-size: 12px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+.section-4-card-1-content > h4 ,.section-4-card-2-content > h4,.section-4-card-3-content > h4,.section-4-card-4-content >h4 {
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 5%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.main-color{
+    background-color: #6429B7;
+    border-radius: 15px;
+    color: white;
+}
+.section-4-card-1{
+    border: 2px solid white;
+    box-shadow: 5px 0 2px 2px #CAD5E2;
+    border-radius: 10px;
+    
+    
+}
+.section-4-card-2{
+    border: 2px solid white;
+    box-shadow: 5px 0 2px 2px #CAD5E2;
+    border-radius: 10px;
+    
+    
+}
+.section-4-card-3{
+    border: 2px solid white;
+    box-shadow: 5px 0 2px 2px #CAD5E2;
+    border-radius: 10px;
+    
+    
+}
+.section-4-card-4{
+    border: 2px solid white;
+    box-shadow: 5px 0 2px 2px #CAD5E2;
+    border-radius: 10px;
+    
+    
+}
+
+.section-4-card-1-image{
+    margin-top: 10%;
+    
+}
+.section-4-card-2-image{
+    margin-top: 10%;
+}
+.section-4-card-3-image{
+    margin-top: 10%;
+}
+.section-4-card-4-image{
+    margin-top: 10%;
+}
